@@ -1,0 +1,46 @@
+# PHP specific
+vendor/
+composer.lock
+*.log
+
+# IDE specific
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# System specific
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Build files
+/build/
+/dist/
+
+# Cache files
+*.cache
+
+# Configuration files with sensitive data
+config/db_config.php
+
+# Uploaded files
+/uploads/
+/public/uploads/
+
+# Backup files
+*.bak
+*.backup 
